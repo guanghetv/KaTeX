@@ -451,6 +451,11 @@ var symbols = {
             group: "rel",
             replace: "\u2265"
         },
+        "\\geqslant": {
+            font: "ams",
+            group: "rel",
+            replace: "\u2a7e"
+        },
         "\\gets": {
             font: "main",
             group: "rel",
@@ -515,6 +520,11 @@ var symbols = {
             font: "main",
             group: "rel",
             replace: "\u2264"
+        },
+        "\\leqslant": {
+            font: "ams",
+            group: "rel",
+            replace: "\u2a7d"
         },
         "\\ne": {
             font: "main",
@@ -626,6 +636,31 @@ var symbols = {
             font: "main",
             group: "textord",
             replace: "\u2297"
+        },
+        "\\parallel": {
+            font: "ams",
+            group: "textord",
+            replace: "\u2225"
+        },
+        "\\perp": {
+            font: "ams",
+            group: "textord",
+            replace: "\u27c2"
+        },
+        "\\because": {
+            font: "ams",
+            group: "textord",
+            replace: "\u2235"
+        },
+        "\\therefore": {
+            font: "ams",
+            group: "textord",
+            replace: "\u2234"
+        },
+        "\\thickapprox": {
+            font: "ams",
+            group: "textord",
+            replace: "\u2248"
         },
         "\\partial":{
             font: "main",
